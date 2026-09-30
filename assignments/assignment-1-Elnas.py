@@ -63,6 +63,7 @@ print("I'M READY")
 # This is a single-line comment.
 # Python does not execute this line.
 # Comments can explain what code does.
+print("READY")  # This is an inline comment.
 # Comments can make code easier to understand.
 # Good comments should be useful.
 # Too many comments can make code harder to read.
@@ -76,9 +77,6 @@ I need to be determine and focus in other to achieve this goal.
 Evenally, my sacrifies and determination payed off as expected this year.
 """ 
 
-print("READY")  # This is an inline comment.
-
-print("The magic number is:", int("".join(["".join(["s"])])) if False else (6 * 7))
 print("The magic number is:", 6 * 7)
 print("The magic number is:", (3 ** 3) + (5 * 3))
 
@@ -87,4 +85,4 @@ print("The magic number is:", (3 ** 3) + (5 * 3))
 #7 / 2 = 3.5 because / performs true division and returns the exact decimal result.
 #10 / 0 raises a ZeroDivineError because divion by zero is not allowed.
 
-print("Hello, World! " * 3)
+print("Hello, World!\n" * 3)
